@@ -1,9 +1,12 @@
 #include <Arduino.h>
 // PSUDO CODE
 // setup basic
+#define baud_rate 115200
 void setup()
 {
-  // put your setup code here, to run once:
+  Serial.begin(baud_rate);
+  Serial.print(__DATE__);
+  Serial.print(__TIME__);
 }
 
 void loop()
