@@ -1,5 +1,6 @@
 #include <Arduino.h>
-
+//PSUDO CODE 
+//setup basic
 void setup() {
   // put your setup code here, to run once:
 }
